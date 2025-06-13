@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central de IAs Gratuitas</title>
+  <style>
+    /* Paleta de cores: tons de azul e branco */
+    :root {
+      --primary-color: #1e90ff;
+      --secondary-color: #f0f8ff;
+      --text-color: #333;
+      --button-color: #007acc;
+      --button-hover-color: #005f99;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .description {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .description p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .ai-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .ai-item {
+      background-color: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .ai-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .ai-item h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.5rem;
+      color: var(--primary-color);
+    }
+
+    .ai-item p {
+      margin: 0 0 1rem 0;
+    }
+
+    .ai-item a {
+      text-decoration: none;
+      color: white;
+      background-color: var(--button-color);
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    .ai-item a:hover {
+      background-color: var(--button-hover-color);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem 0;
+      background-color: var(--primary-color);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Central de IAs Gratuitas</h1>
+  </header>
+  <main>
+    <div class="description">
+      <p>Descubra e use ferramentas de inteligência artificial gratuitamente! Escolha entre diversas opções abaixo e comece a explorar.</p>
+    </div>
+    <ul class="ai-list">
+      <li class="ai-item">
+        <h2>ChatGPT</h2>
+        <p>Converse com esta IA avançada para responder perguntas e criar textos.</p>
+        <a href="https://chat.openai.com/" target="_blank">Acessar</a>
+      </li>
+      <li class="ai-item">
+        <h2>DALL·E</h2>
+        <p>Crie imagens incríveis a partir de descrições de texto.</p>
+        <a href="https://openai.com/dall-e" target="_blank">Acessar</a>
+      </li>
+      <li class="ai-item">
+        <h2>DeepL Translator</h2>
+        <p>Traduza textos com precisão para diversos idiomas.</p>
+        <a href="https://www.deepl.com/" target="_blank">Acessar</a>
+      </li>
+      <li class="ai-item">
+        <h2>Runway ML</h2>
+        <p>Ferramenta para criação de vídeos e edição com IA.</p>
+        <a href="https://runwayml.com/" target="_blank">Acessar</a>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <p>Desenvolvido por [Seu Nome]. Todos os direitos reservados © 2025</p>
+  </footer>
+</body>
+</html>
